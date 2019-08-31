@@ -97,3 +97,8 @@ i.fab, i.fas {
     background: teal;
     color: white;
 }
+
+#smallGH {
+    font-size: 16px;
+    padding: 5px;
+}
