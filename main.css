@@ -106,6 +106,7 @@ i.fab, i.fas {
 
 #projectsPage {
     display: flex;
+    border: 2px solid black;
 }
 
 .card {
