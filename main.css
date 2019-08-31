@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-h1 {
+h1, h2 {
     background-color: black;
     text-align: center;
     color: limegreen;
@@ -14,7 +14,14 @@ h1 {
     border: 5px double limegreen;
     border-radius: 2em;
     font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
     font-size: 2em;
+}
+
+h2 {
+    font-size: 1em;
 }
 
 #bioPage {
@@ -37,7 +44,7 @@ h1 {
 }
 
 
-#navLinks {
+#navLinks, #technologiesPage ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
