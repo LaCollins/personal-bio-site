@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+
 h1, h2, h3, footer, .btn{
     background-color: black;
     text-align: center;
@@ -43,15 +44,30 @@ h2 {
     margin: 2em;
 }
 
+@media only screen and (max-width: 650px) {
+    #bioPage {
+        flex-direction: column;
+        align-content: center;
+        margin: 0 3em 0 0em;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    #bioPage img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
 #bioPage p::first-letter {
     font-size: 150%;
     font-family: 'Press Start 2P', cursive;
 }
 
 
-#navLinks, #technologiesPage ul {
+#navLinks {
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row; */
     justify-content: space-evenly;
     margin: 2em;
     font-weight: bolder;
@@ -123,7 +139,7 @@ i.fab, i.fas {
 }
 
 .card {
-    width: 29%;
+    /* width: 29%; */
     margin: .5em;
     padding: .5em;
     border: 2px solid black;

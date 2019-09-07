@@ -67,9 +67,10 @@ const createProjectCards = (projectArray) => {
     let domString = '';
     for (let i= 0; i < projectArray.length; i++) {
         if (projectArray[i].available) {
+          domstring = '<div class="row">'
             const projectCard = projectArray[i];
                 domString += `
-                <div class="card">
+                <div class="card col-sm-4">
                     <h3>${projectCard.title}</h3>
                     <img src="${projectCard.screenshot}" alt="${projectCard.title}">
                     <p>${projectCard.description}</p>
@@ -78,6 +79,7 @@ const createProjectCards = (projectArray) => {
                     <a href="${projectCard.githubUrl}" target="_blank"><i id="smallGH" class="fab fa-github"></i>GitHub</a>
                 </div> 
                     `;
+              domstring += '</div>';
         }
     }
     printToDom(domString, 'projectsPage');
