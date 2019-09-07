@@ -46,28 +46,22 @@ const projects = [
   }
 ];
 
+const bio = document.getElementById('bioPage');
+const tech = document.getElementById('technologiesPage');
+const proj = document.getElementById('projectsPage');
+
+
+window.onload = () => {
+  tech.style.display = 'none';
+  proj.style.display = 'none';
+};
+
 const printToDom = (toPrint, divId) => {
     document.getElementById(divId).innerHTML = toPrint;
 
 };
 
-const eventListener = () => {
-  const buttons = document.getElementsByTagName("button");
-  for (i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('click', (e) => {
-      const type = e.target.id;
-      if (type === 'navToBio') {
-        console.log('bio');
-      } else if (type === 'navToTech') {
-        console.log('tech');
-      } else if (type === 'navToProjects') {
-        console.log('projects');
-      }
-    });
-  };
-};
 
-window.addEventListener('load', eventListener);
 
 const createProjectCards = (projectArray) => {
     let domString = '';
@@ -89,4 +83,28 @@ const createProjectCards = (projectArray) => {
     printToDom(domString, 'projectsPage');
 }
 
-createProjectCards(projects);
+
+const eventListener = () => {
+  const buttons = document.getElementsByTagName("button");
+  for (i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', (e) => {
+      const type = e.target.id;
+      if (type === 'navToBio') {
+        bio.style.display = '';
+        tech.style.display = 'none';
+        proj.style.display = 'none';
+      } else if (type === 'navToTech') {
+        bio.style.display = 'none';
+        tech.style.display = '';
+        proj.style.display = 'none';
+      } else if (type === 'navToProjects') {
+        bio.style.display = 'none';
+        tech.style.display = 'none';
+        proj.style.display = '';
+        createProjectCards(projects);
+      }
+    });
+  };
+};
+
+window.addEventListener('load', eventListener);
