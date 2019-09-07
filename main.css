@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, footer {
+h1, h2, h3, footer, .btn {
     background-color: black;
     text-align: center;
     color: limegreen;

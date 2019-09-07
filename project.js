@@ -51,6 +51,24 @@ const printToDom = (toPrint, divId) => {
 
 };
 
+const eventListener = () => {
+  const buttons = document.getElementsByTagName("button");
+  for (i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', (e) => {
+      const type = e.target.id;
+      if (type === 'navToBio') {
+        console.log('bio');
+      } else if (type === 'navToTech') {
+        console.log('tech');
+      } else if (type === 'navToProjects') {
+        console.log('projects');
+      }
+    });
+  };
+};
+
+window.addEventListener('load', eventListener);
+
 const createProjectCards = (projectArray) => {
     let domString = '';
     for (let i= 0; i < projectArray.length; i++) {
