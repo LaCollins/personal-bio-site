@@ -154,3 +154,7 @@ h3 {
 .card a {
     margin: 1em;
 }
+
+@media (min-width: 576px) {
+
+};
