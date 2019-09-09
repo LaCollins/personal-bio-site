@@ -9,7 +9,7 @@ body {
 
 h1, h2, h3, footer, .btn{
     background-color: black;
-    text-align: center;
+    /* text-align: center; */
     color: limegreen;
     padding: 1em;
     border: 5px double limegreen;
@@ -31,7 +31,7 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 5em;
+    /* margin: 5em; */
     align-items: center;
 }
 
