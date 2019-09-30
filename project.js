@@ -109,4 +109,10 @@ const eventListener = () => {
   };
 };
 
+const init = () => {
+
 window.addEventListener('load', eventListener);
+
+};
+
+init();
