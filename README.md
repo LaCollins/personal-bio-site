@@ -4,7 +4,9 @@
 This site is a personal bio site for myself. Learn all about me.
 
 ## Screenshots
-
+![Main view of page](https://raw.githubusercontent.com/LaCollins/personal-bio-site/master/screenshots/mainview.PNG)
+![View of Tools and Technologies](https://raw.githubusercontent.com/LaCollins/personal-bio-site/master/screenshots/toolsandtech.PNG)
+![View of projects](https://raw.githubusercontent.com/LaCollins/personal-bio-site/master/screenshots/projects.PNG)
 
 ## How to run
 * Clone down this project
