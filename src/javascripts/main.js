@@ -6,7 +6,7 @@ import myProjects from './components/projects/project';
 
 const init = () => {
   bio.printBio();
-  myProjects.printProjects(projects);
+  myProjects.printProjects();
 };
 
 init();
