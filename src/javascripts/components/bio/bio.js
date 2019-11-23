@@ -3,11 +3,10 @@ import './bio.scss';
 import utilities from '../../helpers/utilities';
 import myImage from '../../../images/MyPhoto.jpg';
 
-const displayBio = (e) => {
+const displayBio = () => {
   $('#bioPage').removeClass('hide');
   $('#technologiesPage').addClass('hide');
   $('#projectsPage').addClass('hide');
-  console.log(e.target.id);
 };
 
 const displayTech = () => {
