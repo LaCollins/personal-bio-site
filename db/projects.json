@@ -19,7 +19,7 @@
     },
   "project3": {
     "title": "Jurassic World",
-    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/homepage.PNG",
+    "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/master/images/readmeImg/dinoLogin.PNG",
     "description": "Welcome to the world of Jurassic Park! When the user initially visits the page, they will see all the different components that run the theme park. In order to keep track of the dinosaurs, staff, rides, vendors, and equipment, the user will need to log in. However, be careful! Because there is a Chaos Monkey that wreaks havoc at the same time every day on the equipment, staff, and rides.",
     "technologiesUsed": "HTML5, CSS, Javascript, Bootstrap: free and open-source CSS framework, jQuery, ES6 modules, Webpack, Firebase, Cron",
     "available": true,
