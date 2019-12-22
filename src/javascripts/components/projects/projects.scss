@@ -1,3 +1,25 @@
 #imageContaienr {
   text-align: center;
 }
+
+.projectCard {
+  background-color: rgba(0, 0, 0, 0.60);
+  color: limegreen;
+  border-radius: 2em;
+  padding: 1em;
+  border: limegreen dotted 2px;
+  padding-left: 2em;
+
+  a:link {
+    color: limegreen;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  .githubProj {
+    color: white;
+  }
+  
+}
