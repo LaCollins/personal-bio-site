@@ -30,7 +30,7 @@
     "title": "Le Baguette",
     "screenshot": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-michelin-restaurant/master/screenshots2/homepage.PNG",
     "description": "Welcome to La Baguette, our very own thirty-seven star Michellin restaurant! This site can be used to view the menu, ingredients, staff members, reports, seating available at the restaurant, and standing reservations. As an employee, you have the ability to sign in and make modifications to the menu items, the ingredients, staff members, and reservations. Additionally, you will also have the ability to look at reports.",
-    "technologiesUsed": "HTML5, CSS, Javascript, Bootstrap: free and open-source CSS framework, jQuery, ES6 modules, Webpack, Firebase, Cron",
+    "technologiesUsed": "HTML5, CSS, Javascript, Bootstrap: free and open-source CSS framework, jQuery, ES6 modules, Webpack, Firebase",
     "available": true,
     "url": "https://labaguette-932fa.web.app/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
