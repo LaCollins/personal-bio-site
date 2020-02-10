@@ -1,12 +1,12 @@
 {
   "project1": {
-    "title": "Tamagotchi",
-    "screenshot": "https://raw.githubusercontent.com/LaCollins/tomagotchi/master/screenshots/mainview.PNG",
-    "description": "This is a Tamagotchi pet. You can use the buttons to feed, play with, fight, or let your pet sleep. BEWARE! If Fluffy's happiness hits 0 he dies!",
-    "technologiesUsed": "HTML5, CSS, Javascript, Bootstrap: free and open-source CSS framework, jQuery, ES6 modules, Webpack, Firebase",
+    "title": "Snakelings",
+    "screenshot": "https://github.com/LaCollins/snakelings/blob/master/screenshots/mainView.PNG?raw=true",
+    "description": "This project was my front-end capstone project. Snakelings is a Snake Identification and Tracking Resource. The concept is that this app will help users identify snake species that they may come across and allow them to report the sighting.",
+    "technologiesUsed": "HTML5, SCSS, Javascript, Bootstrap: free and open-source CSS framework, React Bootstrap, React, FontAwesome, React AWS S3, Webpack, Firebase",
     "available": true,
-    "url": "https://tamagotchi-7ea85.firebaseapp.com/",
-    "githubUrl": "https://github.com/LaCollins/tomagotchi"
+    "url": "https://snakelings.com/",
+    "githubUrl": "https://github.com/LaCollins/snakelings"
     },
   "project2": {
     "title": "Squidterest",
@@ -34,5 +34,14 @@
     "available": true,
     "url": "https://labaguette-932fa.web.app/",
     "githubUrl": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
-  }
+  },
+  "project5": {
+    "title": "Tamagotchi",
+    "screenshot": "https://raw.githubusercontent.com/LaCollins/tomagotchi/master/screenshots/mainview.PNG",
+    "description": "This is a Tamagotchi pet. You can use the buttons to feed, play with, fight, or let your pet sleep. BEWARE! If Fluffy's happiness hits 0 he dies!",
+    "technologiesUsed": "HTML5, CSS, Javascript, Bootstrap: free and open-source CSS framework, jQuery, ES6 modules, Webpack, Firebase",
+    "available": true,
+    "url": "https://tamagotchi-7ea85.firebaseapp.com/",
+    "githubUrl": "https://github.com/LaCollins/tomagotchi"
+    }
 }
